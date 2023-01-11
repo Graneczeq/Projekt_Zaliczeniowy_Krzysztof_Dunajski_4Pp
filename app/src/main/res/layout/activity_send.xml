@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Podaj numer telefonu"
+
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/white"
+
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="300dp"
+        android:layout_height="89dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="208dp"
+        android:textStyle="bold"
+
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="Wyślij E-Mail"/>
+
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_marginTop="148dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:textColor="@color/white"
+        android:layout_marginLeft="105dp"
+        android:hint="Podaj Imię i Nazwisko"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_height="89dp"
+        android:layout_marginTop="400dp"
+        android:text="Wyślij SMS" />
+
+    <TextView
+        android:id="@+id/ordercheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:text="test" />
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Projekt_Zaliczeniowy_Krzysztof_Dunajski_4Pp</string>
+    <string name="login_success">LOGIN</string>
+    <string name="computer">Komputer</string>
+    <string name="order_price">Cena Zamówienia</string>
+    <string name="price_info_no_item">-</string>
+    <string name="order">Zamówienie</string>
+    <string name="keyboard">Klawiatura</string>
+    <string name="mouse">Mysz komputerowa</string>
+    <string name="monitor">Monitor</string>
+
+
+    <string-array translatable="false" name="keyboardNames">
+        <item>LOGITECH MX Keys</item>
+        <item>MAD DOG GK850W Gateron</item>
+        <item>STEELSERIES Apex 3</item>
+    </string-array>
+    <string-array translatable="false" name="keyboardPrices">
+        <item>$99.99</item>
+        <item>$109.99</item>
+        <item>$129.99</item>
+    </string-array>
+    <string-array translatable="false" name="keyboardDescriptions">
+        <item>Bezprzewodowa klawiatura z technologią Bluetooth. </item>
+        <item>Klawiatura dla graczy z podświetleniem LED.</item>
+        <item>Bardzo dobrze wykonana klawiatura dla graczy.</item>
+    </string-array>
+    <string-array translatable="false" name="mouseNames">
+        <item>Razer Mamba</item>
+        <item>Razer Viper Mini</item>
+        <item>Steelseries Sensei 300</item>
+    </string-array>
+    <string-array translatable="false" name="mousePrices">
+        <item>$99.99</item>
+        <item>$59.99</item>
+        <item>$79.99</item>
+    </string-array>
+    <string-array translatable="false" name="mouseDescriptions">
+        <item>Bezprzewodowa mysz gamingowa</item>
+        <item>Mała i lekka mysz gamingowa</item>
+        <item>Przewodowa mysz gamingowa z 5 przyciskami</item>
+    </string-array>
+    <string-array translatable="false" name="monitorNames">
+        <item>Asus Buisness Monitor</item>
+        <item>Samsung LF24T350FHUXEN</item>
+        <item>Samsung Odyssey G5</item>
+    </string-array>
+    <string-array translatable="false" name="monitorPrices">
+        <item>$129.99</item>
+        <item>$359.99</item>
+        <item>$549.99</item>
+    </string-array>
+    <string-array translatable="false" name="monitorDescriptions">
+        <item>23,8-calowy monitor Full HD ze zintegrowaną kamerą internetową i głośnikami</item>
+        <item>24", 1920 x 1080,odświeżanie 144hz</item>
+        <item>27", 2560 x 1440, odświeżanie 144hz, czas reakcji: 1ms</item>
+    </string-array>
+    <string-array translatable="false" name="computerNames">
+        <item>HP Pavilion Gaming</item>
+        <item>MAD DOG PC</item>
+        <item>Acer Nitro N50</item>
+    </string-array>
+    <string-array translatable="false" name="computerPrices">
+        <item>$999.99</item>
+        <item>$2399.99</item>
+        <item>$2599.99</item>
+    </string-array>
+    <string-array translatable="false" name="computerDescriptions">
+        <item>Ryzen 5 4600G, GTX 1650 Super, 16GB DDR5 4400MHz, 512GB SSD,</item>
+        <item>i5–12400, GTX 1660 Super, 16GB DDR4 3200MHz, 512GB SSD</item>
+        <item>i9–10850K, GTX 1660 Super, 6GB DDR4 3200MHZ, 1TB HDD</item>
+    </string-array>
+</resources>

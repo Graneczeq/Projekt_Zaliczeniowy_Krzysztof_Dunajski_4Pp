@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderMenu"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+
+            android:id="@+id/keyboardCheckbox"
+            android:text="Klawiatura"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:saveEnabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+
+            android:id="@+id/keyboardSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:saveEnabled="false"
+            android:layout_below="@id/keyboardCheckbox"
+            android:backgroundTint="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/mouseCheckbox"
+            android:text="Mysz"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/keyboardSpinner"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/mouseSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/mouseCheckbox"
+            android:backgroundTint="@color/white"/>
+
+        <CheckBox
+
+            android:id="@+id/monitorCheckbox"
+            android:text="Monitor"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/mouseSpinner"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/monitorSpinner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/monitorCheckbox"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"/>
+
+        <CheckBox
+
+            android:id="@+id/computerCheckbox"
+            android:text="Komputer"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/monitorSpinner"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/computerSpinner"
+            android:layout_width="match_parent"
+            android:layout_below="@id/computerCheckbox"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"/>
+
+        <TextView
+            android:id="@+id/orderPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:text="-"
+
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/computerSpinner" />
+
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderPrice"
+            android:backgroundTint="@color/white"
+            android:text="Zamów"
+
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="50sp"
+            android:paddingVertical="20sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>
